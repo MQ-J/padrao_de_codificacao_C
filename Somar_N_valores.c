@@ -4,8 +4,8 @@
 #include <conio.h>
 #include <locale.h>
 
-/* Funções */
-int RealizaSoma (int S) /*REALIZA SOMA DE TODOS OS NUMEROS INTEIROS EXISTENTES ENTRE 1 E N (INCLUINDO N)*/
+/* FunÃ§Ãµes */
+int RealizaSoma (int S) /*REALIZA SOMA DE TODOS OS NUMEROS INTEIROS POSITIVOS EXISTENTES ENTRE 1 E N (INCLUINDO N)*/
 {
 	int Somar, Contar;
 	Somar = 0;
@@ -24,8 +24,8 @@ int main ()
 	int S;
 	printf ("Digite o valor desejado: ");
 	fflush (stdin);
-	scanf ("%i", &S); /*RECEBE VALOR PARA REALIZAÇÃO DA SOMA*/
-	printf ("A soma dos valores é: %i", RealizaSoma (S));
+	scanf ("%i", &S); /*RECEBE VALOR PARA REALIZAÃ‡ÃƒO DA SOMA*/
+	printf ("A soma dos valores Ã©: %i", RealizaSoma (S));
 	getch();
 	return(0);
 }
